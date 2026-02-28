@@ -25,7 +25,7 @@ from sklearn.preprocessing import OrdinalEncoder
 # 1. Load Dataset
 # ==============================================
 
-df = pd.read_csv("cars.csv")
+df = pd.read_csv("C:\Users\AG\Downloads\المستوى الثامن\مشروع2-493\UsedCarsSA_Clean_EN (1).csv")
 print(f"Loaded: {df.shape[0]:,} rows, {df.shape[1]} columns")
 df.head()
 
@@ -566,4 +566,5 @@ print("  07_error_by_range.png")
 print("  08_model_results.png")
 print("  09_model_comparison.png")
 print("  10_shap_summary.png")
+
 print("  11_shap_bar.png")
